@@ -1,0 +1,120 @@
+/*Header section styles*/
+header {
+  background-color: #5e5c5c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.banner {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+/*Navbar styles*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 8px #ccc;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  padding: 0 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu li a:hover,
+.menu li a.active {
+  color: #5e5c5c;
+  font-weight: bold;
+}
+
+/*Main Content styles*/
+.main_content {
+  padding: 50px;
+  background-color: rgba(255, 230, 219, 1);
+}
+
+section {
+  padding: 50px;
+  background-color: rgba(255, 230, 219, 1);
+}
+
+footer {
+  padding: 50px;
+  background-color: rgba(219, 242, 255, 1);
+}
+
+#main-heading {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+hr {
+  border: 1px solid #333;
+  width: 50%;
+}
+
+#task h2,
+#requirements h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#task p,
+#requirements p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#task img {
+  width: 300px;
+  height: 210px;
+  display: block;
+  margin: 0 auto;
+}
+
+#requirements ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#requirements li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#requirements strong {
+  font-weight: bold;
+}
+
+#requirements a {
+  color: #5e5c5c;
+  text-decoration: none;
+}
